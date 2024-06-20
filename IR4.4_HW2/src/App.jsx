@@ -1,4 +1,5 @@
 import "./App.css";
+import ChooseBooks from "./components/ChooseBooks";
 import ChooseDeserts from "./components/ChooseDeserts";
 import ChooseDrinks from "./components/ChooseDrinks";
 import ChooseFruits from "./components/ChooseFruits";
@@ -14,6 +15,8 @@ const App = () => {
       <ChooseDrinks />
       <br />
       <ChooseDeserts />
+      <br />
+      <ChooseBooks />
     </div>
   );
 };
