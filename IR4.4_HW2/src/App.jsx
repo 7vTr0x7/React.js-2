@@ -1,7 +1,12 @@
-import React from "react";
+import "./App.css";
+import FavoriteMovie from "./components/FavoriteMovie";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <FavoriteMovie />
+    </div>
+  );
 };
 
 export default App;
