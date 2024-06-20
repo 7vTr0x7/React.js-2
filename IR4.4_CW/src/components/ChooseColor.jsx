@@ -15,7 +15,7 @@ const ChooseColor = () => {
 
   return (
     <div>
-      <p style={{ margin: "0", padding: "0" }}>Choose your favorite sports:</p>
+      <p style={{ margin: "0", padding: "0" }}>Choose your favorite colors:</p>
       <label for="Red">
         <input
           type="checkbox"
