@@ -1,7 +1,11 @@
-import React from "react";
+import GenderForm from "./components/GenderForm";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <GenderForm />
+    </div>
+  );
 };
 
 export default App;
