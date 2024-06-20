@@ -1,6 +1,7 @@
 import ChooseSports from "./components/ChooseSports";
 import ChooseColor from "./components/ChooseColor";
 import ChooseInstruments from "./components/ChooseInstruments";
+import ChooseAnimals from "./components/ChooseAnimals";
 
 const App = () => {
   return (
@@ -10,6 +11,8 @@ const App = () => {
       <ChooseColor />
       <br />
       <ChooseInstruments />
+      <br />
+      <ChooseAnimals />
     </div>
   );
 };
