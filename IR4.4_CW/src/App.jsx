@@ -2,6 +2,7 @@ import ChooseSports from "./components/ChooseSports";
 import ChooseColor from "./components/ChooseColor";
 import ChooseInstruments from "./components/ChooseInstruments";
 import ChooseAnimals from "./components/ChooseAnimals";
+import ChooseCars from "./components/ChooseCars";
 
 const App = () => {
   return (
@@ -13,6 +14,8 @@ const App = () => {
       <ChooseInstruments />
       <br />
       <ChooseAnimals />
+      <br />
+      <ChooseCars />
     </div>
   );
 };
