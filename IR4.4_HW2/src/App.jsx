@@ -1,4 +1,5 @@
 import "./App.css";
+import ChooseDrinks from "./components/ChooseDrinks";
 import ChooseFruits from "./components/ChooseFruits";
 import FavoriteMovie from "./components/FavoriteMovie";
 
@@ -8,6 +9,8 @@ const App = () => {
       <FavoriteMovie />
       <br />
       <ChooseFruits />
+      <br />
+      <ChooseDrinks />
     </div>
   );
 };
