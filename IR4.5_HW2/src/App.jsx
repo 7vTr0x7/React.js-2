@@ -3,6 +3,7 @@ import SelectProficiency from "./components/SelectProficiency";
 import SelectDestination from "./components/SelectDestination";
 import SelectCoffee from "./components/SelectCoffee";
 import SelectPet from "./components/SelectPet";
+import SelectSports from "./components/SelectSports";
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
       <SelectCoffee />
       <br />
       <SelectPet />
+      <br />
+      <SelectSports />
     </div>
   );
 };
