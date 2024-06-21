@@ -1,7 +1,12 @@
 import React from "react";
+import SelectProficiency from "./components/SelectProficiency";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <SelectProficiency />
+    </div>
+  );
 };
 
 export default App;
