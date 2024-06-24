@@ -1,5 +1,6 @@
 import CarSelect from "./components/CarSelect";
 import LanguageSelect from "./components/LanguageSelect";
+import SelectContinent from "./components/SelectContinent";
 import SelectInstrument from "./components/SelectInstrument";
 
 const App = () => {
@@ -10,6 +11,8 @@ const App = () => {
       <LanguageSelect />
       <br />
       <CarSelect />
+      <br />
+      <SelectContinent />
     </div>
   );
 };
