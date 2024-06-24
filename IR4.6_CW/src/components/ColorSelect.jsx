@@ -9,8 +9,8 @@ const ColorSelect = () => {
 
   return (
     <div>
-      <label>Select a color: </label>
-      <select onChange={colorSelectHandler}>
+      <label htmlFor="colorSelect">Select a color: </label>
+      <select id="colorSelect" onChange={colorSelectHandler}>
         <option value="Red">Red</option>
         <option value="Yellow">Yellow</option>
         <option value="Green">Green</option>
