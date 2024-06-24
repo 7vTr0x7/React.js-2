@@ -7,9 +7,9 @@ const SelectMealTime = () => {
   const mealSelectHandler = (e) => {
     setMeal(e.target.value);
 
-    if (meal === "Breakfast") {
+    if (e.target.value === "Breakfast") {
       setText("Morning meal typically eaten before starting the day");
-    } else if (meal === "Lunch") {
+    } else if (e.target.value === "Lunch") {
       setText("Midday meal typically eaten around noon");
     } else {
       setText("Evening meal typically eaten at the end of the day");
