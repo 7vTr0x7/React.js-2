@@ -10,7 +10,7 @@ const App = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    if (comment && experience && agreed) {
+    if (mode && usage && comment && experience && agreed) {
       setSubmitted(true);
     }
   };
