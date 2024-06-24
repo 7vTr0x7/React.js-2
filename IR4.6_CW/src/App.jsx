@@ -1,7 +1,12 @@
 import React from "react";
+import ColorSelect from "./components/ColorSelect";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <ColorSelect />
+    </div>
+  );
 };
 
 export default App;
