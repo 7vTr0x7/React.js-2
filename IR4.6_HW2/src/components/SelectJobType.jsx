@@ -6,9 +6,9 @@ const SelectJobType = () => {
 
   const typeSelectHandler = (e) => {
     setJobType(e.target.value);
-    if (jobType === "Full-time") {
+    if (e.target.value === "Full-time") {
       setText("Employment for a standard 40-hours workweek");
-    } else if (jobType === "Part-time") {
+    } else if (e.target.value === "Part-time") {
       setText("Employment for  less than a standard workweek");
     } else {
       setText("Temporary employment for specific project or period");
