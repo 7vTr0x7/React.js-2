@@ -1,3 +1,4 @@
+import CarSelect from "./components/CarSelect";
 import LanguageSelect from "./components/LanguageSelect";
 import SelectInstrument from "./components/SelectInstrument";
 
@@ -7,6 +8,8 @@ const App = () => {
       <SelectInstrument />
       <br />
       <LanguageSelect />
+      <br />
+      <CarSelect />
     </div>
   );
 };
