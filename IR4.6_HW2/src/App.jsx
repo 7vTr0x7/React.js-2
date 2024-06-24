@@ -2,6 +2,7 @@ import React from "react";
 import SelectClothingSize from "./components/SelectClothingSize";
 import SelectJobType from "./components/SelectJobType";
 import SelectMealTime from "./components/SelectMealTime";
+import SelectSkillLevel from "./components/SelectSkillLevel";
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
       <SelectJobType />
       <br />
       <SelectMealTime />
+      <br />
+      <SelectSkillLevel />
     </div>
   );
 };
