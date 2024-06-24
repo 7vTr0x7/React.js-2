@@ -1,7 +1,11 @@
-import React from "react";
+import SelectInstrument from "./components/SelectInstrument";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <SelectInstrument />
+    </div>
+  );
 };
 
 export default App;
