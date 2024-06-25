@@ -3,6 +3,7 @@ import PosNeg from "./components/PosNeg";
 import UserLogin from "./components/UserLogin";
 import TempCalculator from "./components/TempCalculator";
 import ShoppingCart from "./components/ShoppingCart";
+import Quiz from "./components/Quiz";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <UserLogin />
       <TempCalculator />
       <ShoppingCart />
+      <Quiz />
     </div>
   );
 };
