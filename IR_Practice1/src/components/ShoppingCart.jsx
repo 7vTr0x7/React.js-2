@@ -5,12 +5,14 @@ const ShoppingCart = () => {
   const [products, setProducts] = useState([]);
 
   const addProductHandler = (item, price) => {
-    setProducts((prev) => [...prev, `${item} - $${price}`]);
+    setProducts((prev) => [...prev, { item: item, price: price }]);
     setTotalPrice((prev) => prev + price);
   };
 
   const productListing = products.map((product, index) => (
-    <li key={index}>{product}</li>
+    <li key={index}>
+      {product.item} - {product.price}
+    </li>
   ));
 
   return (
