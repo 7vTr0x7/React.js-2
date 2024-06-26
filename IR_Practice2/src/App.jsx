@@ -45,7 +45,8 @@ const App = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     if (answers) {
-      setSubmitted(true);console.log(answers)
+      setSubmitted(true);
+      console.log(answers);
     }
   };
 
@@ -57,8 +58,6 @@ const App = () => {
       ) : (
         <form onSubmit={submitHandler}>
           {questionsListing}
-          <br />
-          <br />
           <button type="submit">Submit</button>
         </form>
       )}
