@@ -2,15 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-]);
-
 const App = () => {
   return (
     <div>
