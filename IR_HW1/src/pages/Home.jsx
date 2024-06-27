@@ -16,27 +16,21 @@ const Home = () => {
           />
         </div>
         <p className="pt-3">
-          The Taj Mahal, located in Agra, India, is a magnificent white marble
-          mausoleum built by the Mughal Emperor Shah Jahan in memory of his
-          beloved wife, Mumtaz Mahal. Completed in 1653, this UNESCO World
-          Heritage Site is renowned for its stunning architectural beauty and
-          intricate craftsmanship, combining elements of Islamic, Persian,
-          Ottoman Turkish, and Indian architectural styles. The main structure
-          is flanked by four minarets and is set amidst expansive formal gardens
-          with reflecting pools that enhance its splendor. The central dome,
-          adorned with a lotus design and crowned by a gilded finial, is an
-          iconic feature that captures the essence of Mughal architecture.
+          The Taj Mahal, located in Agra, India, is a stunning white marble
+          mausoleum built by Mughal Emperor Shah Jahan in memory of his wife,
+          Mumtaz Mahal. Completed in 1653, this UNESCO World Heritage Site
+          showcases a blend of Islamic, Persian, Ottoman Turkish, and Indian
+          architectural styles. Its central dome, flanked by four minarets, and
+          set amidst formal gardens with reflecting pools, epitomizes Mughal
+          architecture&apos;s elegance.
         </p>
         <p>
-          The interior of the Taj Mahal is equally impressive, with a
-          meticulously decorated chamber housing the cenotaphs of Mumtaz Mahal
-          and Shah Jahan, surrounded by delicate marble screens and inlaid with
-          precious and semi-precious stones. The walls and floors are adorned
-          with intricate floral patterns and calligraphy, displaying verses from
-          the Quran. Beyond its architectural grandeur, the Taj Mahal stands as
-          a symbol of eternal love, attracting millions of visitors each year
-          who come to admire its beauty and reflect on the poignant love story
-          that inspired its creation.
+          Inside, the Taj Mahal features a beautifully decorated chamber with
+          the cenotaphs of Mumtaz Mahal and Shah Jahan, surrounded by intricate
+          marble screens and inlaid with precious stones. Adorned with floral
+          patterns and Quranic calligraphy, the Taj Mahal is not only an
+          architectural marvel but also a symbol of eternal love, drawing
+          millions of visitors annually.
         </p>
       </main>
       <Footer />
