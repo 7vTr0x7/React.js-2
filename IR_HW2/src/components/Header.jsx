@@ -8,9 +8,21 @@ const Header = () => {
         <h1>Virat Kolhi</h1>
         <nav>
           <ul className="nav pt-4">
-            {/* <li className="nav-item"><NavLink to="#" className="nav-link">Overview</NavLink></li>
-            <li className="nav-item"><NavLink to="#" className="nav-link">Biography</NavLink></li>
-            <li className="nav-item"><NavLink to="#" className="nav-link">Records</NavLink></li> */}
+            <li className="nav-item">
+              <NavLink to="/" className="nav-link">
+                Overview
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/biography" className="nav-link">
+                Biography
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/records" className="nav-link">
+                Records
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>
