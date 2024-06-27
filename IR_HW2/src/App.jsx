@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Overview from "./pages/Overview";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <Overview />
+    </>
+  );
+};
 
-export default App
+export default App;
