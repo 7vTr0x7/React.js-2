@@ -3,6 +3,7 @@ import Article from "./components/Article";
 import About from "./components/About";
 import UserInfo from "./components/UserInfo";
 import UserProfile from "./components/UserProfile";
+import ProductDetails from "./components/ProductDetails";
 
 const App = () => {
   const title = "React is awesome";
@@ -21,6 +22,10 @@ const App = () => {
   const bio = "Frontend Developer";
   const location = "New York";
 
+  const productName = "Smartphone";
+  const description = "High-performance smartphone with advance features";
+  const price = "$599.99";
+
   return (
     <div>
       <Article title={title} content={content} />
@@ -31,6 +36,11 @@ const App = () => {
         imageUrl={imageUrl}
         bio={bio}
         location={location}
+      />
+      <ProductDetails
+        productName={productName}
+        description={description}
+        price={price}
       />
     </div>
   );
