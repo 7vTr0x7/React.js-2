@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "../components/Header";
 
 const Overview = () => {
-  return <div>Overview</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default Overview;
