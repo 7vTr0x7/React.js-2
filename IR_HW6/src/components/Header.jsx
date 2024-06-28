@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
+        <div className="container">
           <a className="navbar-brand" href="#">
-            Player Database
+            Players Database
           </a>
           <button
             className="navbar-toggler"
