@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const Main = () => {
+const Overview = () => {
   return (
     <>
       <Header />
@@ -11,5 +11,5 @@ const Main = () => {
     </>
   );
 };
-
-export default Main;
+Overview;
+export default Overview;
