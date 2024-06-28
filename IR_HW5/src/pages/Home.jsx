@@ -31,7 +31,7 @@ const Home = () => {
             Explore our team&apos;s performance statistics to gain insights into
             our success on field.
           </p>
-          <Link to="/players" className="btn btn-primary">
+          <Link to="/report" className="btn btn-primary">
             View Performance
           </Link>
         </div>
