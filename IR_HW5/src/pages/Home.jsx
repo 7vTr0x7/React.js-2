@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <main className="container py-5">
+      <main className="container pt-5 pb-3">
         <div>
           <img
             className="img-fluid"
