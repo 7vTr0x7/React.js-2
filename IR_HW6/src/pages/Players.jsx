@@ -30,7 +30,7 @@ const Players = () => {
           <b>Role: </b>
           {player.role}
         </p>
-        <Link to="#" className="btn btn-primary">
+        <Link to={`/players/${player.id}`} className="btn btn-primary">
           Details
         </Link>
       </div>
