@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
       <h1>Todo API</h1>
-      <button onClick={() => setShowData(true)}>Get Todo</button>
+      <button onClick={() => setShowData(true)}>Get Data</button>
       {showData && (
         <div>
           {data ? (
