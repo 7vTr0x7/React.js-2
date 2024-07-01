@@ -36,7 +36,9 @@ const Employees = () => {
               <li key={employee.id} className="list-group-item">
                 <h4>{employee.name}</h4>
                 <p>{employee.title}</p>
-                <Link to="#" className="btn btn-primary">
+                <Link
+                  to={`/employees/${employee.id}`}
+                  className="btn btn-primary">
                   View Details
                 </Link>
               </li>

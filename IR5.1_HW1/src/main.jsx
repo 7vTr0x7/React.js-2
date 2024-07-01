@@ -6,6 +6,7 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Employees from "./pages/Employees.jsx";
 import Report from "./pages/Report.jsx";
+import EmployeeDetails from "./pages/EmployeeDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/report",
     element: <Report />,
+  },
+  {
+    path: "/employees/:empId",
+    element: <EmployeeDetails />,
   },
 ]);
 
