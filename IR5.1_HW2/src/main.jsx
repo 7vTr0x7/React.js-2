@@ -6,6 +6,7 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import FoodItems from "./pages/FoodItems.jsx";
 import Report from "./pages/Report.jsx";
+import FoodDetails from "./pages/FoodDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/report",
     element: <Report />,
+  },
+  {
+    path: "/food/:itemId",
+    element: <FoodDetails />,
   },
 ]);
 

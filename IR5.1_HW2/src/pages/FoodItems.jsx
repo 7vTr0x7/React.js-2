@@ -105,7 +105,7 @@ const FoodItems = () => {
                 <h4>{item.name}</h4>
                 <p>Calories: {item.calories}</p>
                 <p>Category: {item.category}</p>
-                <Link to="#" className="btn btn-primary">
+                <Link to={`/food/${item.id}`} className="btn btn-primary">
                   View Details
                 </Link>
               </li>
