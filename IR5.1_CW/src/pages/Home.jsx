@@ -26,7 +26,7 @@ const Home = () => {
         </div>
         <div className="pt-4">
           <h2>Movies Report</h2>
-          <p>Check our curated list recommended movies that you might enjoy.</p>
+          <p>Check our curated report on movies</p>
           <Link to="/report" className="btn btn-primary">
             View Report
           </Link>
