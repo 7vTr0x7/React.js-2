@@ -20,12 +20,16 @@ const Home = () => {
           <p>
             Explore our collection of movies spanning various genres and themes.
           </p>
-          <a className="btn btn-primary">View Movies</a>
+          <Link to="/movies" className="btn btn-primary">
+            View Movies
+          </Link>
         </div>
         <div className="pt-4">
           <h2>Movie Recommendations</h2>
           <p>Check our curated list recommended movies that you might enjoy.</p>
-          <a className="btn btn-primary">View Recommendations</a>
+          <Link to="/report" className="btn btn-primary">
+            View Recommendations
+          </Link>
         </div>
       </main>
       <Footer />
