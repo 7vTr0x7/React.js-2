@@ -8,7 +8,6 @@ const MovieDetails = () => {
   const movieId = useParams();
 
   const movie = moviesData.find((movie) => movie.id == movieId.movieId);
-  console.log(movie);
 
   return (
     <>
