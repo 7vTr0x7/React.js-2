@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -21,7 +22,9 @@ const Home = () => {
             Meet our dedicated team of professionals who work tirelessly to
             achieve our company&apos;s goals.
           </p>
-          <a className="btn btn-primary">View Employees</a>
+          <Link className="btn btn-primary" to="/employees">
+            View Employees
+          </Link>
         </div>
         <div className="pt-4">
           <h2>Company Report</h2>
@@ -29,7 +32,9 @@ const Home = () => {
             Explore our latest financial report to gain insights into our
             company&apos;s performance and growth.
           </p>
-          <a className="btn btn-primary">View Report</a>
+          <Link to="/report" className="btn btn-primary">
+            View Report
+          </Link>
         </div>
       </div>
       <Footer />
