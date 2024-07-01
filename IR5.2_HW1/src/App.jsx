@@ -4,7 +4,7 @@ import useFetch from "./hooks/useFetch";
 const App = () => {
   const [showData, setShowData] = useState(false);
 
-  const { data } = useFetch("https://jsonplaceholder.typicode.com/todos/1");
+  const { data } = useFetch("https://jsonplaceholder.typicode.com/todos/4");
 
   return (
     <div>
@@ -12,7 +12,11 @@ const App = () => {
       <button onClick={() => setShowData(true)}>Get Todo</button>
       {showData && (
         <div>
-          {data ? <p>{JSON.stringify(data)}</p> : <p>Unable to fetch data</p>}
+          {data ? (
+            <p>{JSON.stringify(data)}</p>
+          ) : (
+            <p>An Error ocurred while fetching data.</p>
+          )}
         </div>
       )}
     </div>
