@@ -37,7 +37,7 @@ const Movies = () => {
                 <h4>{movie.title}</h4>
                 <p>Genre: {movie.genre}</p>
                 <p>Director: {movie.director}</p>
-                <Link to="#" className="btn btn-primary">
+                <Link to={`/movies/${movie.id}`} className="btn btn-primary">
                   View Details
                 </Link>
               </li>
