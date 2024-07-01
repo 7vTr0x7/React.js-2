@@ -5,16 +5,22 @@ import { moviesData } from "../utils/common";
 
 const Report = () => {
   const mostWatchedMovie = moviesData.reduce((acc, curr) =>
-    acc.view < curr.view ? (acc = curr) : acc
+    acc.views < curr.views ? curr : acc
   );
-
-  console.log(mostWatchedMovie);
 
   return (
     <>
       <Header />
       <div className="container py-4">
         <h2>Movie Report</h2>
+        <hr />
+        <h3>Most Watched Movie</h3>
+        {mostWatchedMovie && (
+          <>
+            <p>Title: {mostWatchedMovie.title}</p>
+            <p>Views: {mostWatchedMovie.views}</p>
+          </>
+        )}
       </div>
       <Footer />
     </>
