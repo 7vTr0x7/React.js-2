@@ -1,9 +1,16 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { employees } from "../utils/common";
+import { Link } from "react-router-dom";
 
 const Employees = () => {
-  const [department, setDepartment] = useState("");
+  const [department, setDepartment] = useState("All");
+
+  const filteredEmployee =
+    department === "All"
+      ? employees
+      : employees.filter((emp) => emp.department == department);
 
   return (
     <>
@@ -24,7 +31,17 @@ const Employees = () => {
         </div>
 
         <div>
-          <ul className="list-group">{}</ul>
+          <ul className="list-group">
+            {filteredEmployee.map((employee) => (
+              <li key={employee.id} className="list-group-item">
+                <h4>{employee.name}</h4>
+                <p>{employee.title}</p>
+                <Link to="#" className="btn btn-primary">
+                  View Details
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
       <Footer />
