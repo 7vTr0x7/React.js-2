@@ -23,7 +23,7 @@ const Home = () => {
           </p>
           <a className="btn btn-primary">View Employees</a>
         </div>
-        <div className="py-4">
+        <div className="pt-4">
           <h2>Company Report</h2>
           <p>
             Explore our latest financial report to gain insights into our
