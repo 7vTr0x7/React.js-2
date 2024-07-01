@@ -25,10 +25,10 @@ const Home = () => {
           </Link>
         </div>
         <div className="pt-4">
-          <h2>Movie Recommendations</h2>
+          <h2>Movies Report</h2>
           <p>Check our curated list recommended movies that you might enjoy.</p>
           <Link to="/report" className="btn btn-primary">
-            View Recommendations
+            View Report
           </Link>
         </div>
       </main>
