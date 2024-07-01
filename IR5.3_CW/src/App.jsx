@@ -20,6 +20,8 @@ const App = () => {
               <p>
                 Name: {user.name.first} {user.name.last}
               </p>
+              <p>Email: {user.email}</p>
+              <p>City: {user.location.city}</p>
             </div>
           ))
         ) : (
