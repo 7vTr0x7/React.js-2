@@ -5,6 +5,7 @@ export const moviesData = [
     genre: "Sci-Fi",
     director: "Christopher Nolan",
     views: 2000,
+    rating: 7,
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const moviesData = [
     genre: "Drama",
     director: "Frank Darabont",
     views: 2000,
+    rating: 8,
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const moviesData = [
     genre: "Crime",
     director: "Quentin Tarantino",
     views: 4000,
+    rating: 6.8,
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const moviesData = [
     genre: "Crime",
     director: "Francis Ford Coppola",
     views: 1000,
+    rating: 7.8,
   },
   {
     id: 5,
@@ -33,5 +37,6 @@ export const moviesData = [
     genre: "Action",
     director: "Christopher Nolan",
     views: 5000,
+    rating: 9,
   },
 ];

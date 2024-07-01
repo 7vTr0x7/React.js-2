@@ -8,6 +8,12 @@ const Report = () => {
     acc.views < curr.views ? curr : acc
   );
 
+  const highestRatedMovie = moviesData.reduce((acc, curr) =>
+    acc.rating > curr.rating ? acc : curr
+  );
+
+  const totalMovies = moviesData.length;
+
   return (
     <>
       <Header />
@@ -21,6 +27,16 @@ const Report = () => {
             <p>Views: {mostWatchedMovie.views}</p>
           </>
         )}
+        <h3>Highest Rated Movie</h3>
+        {highestRatedMovie && (
+          <>
+            <p>Title: {highestRatedMovie.title}</p>
+            <p>Rating: {highestRatedMovie.rating}</p>
+          </>
+        )}
+
+        <h3>Total Movies </h3>
+        {totalMovies && <p>{totalMovies}</p>}
       </div>
       <Footer />
     </>
