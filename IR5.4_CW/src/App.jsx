@@ -1,5 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import useFetch from "./hooks/useFetch";
 
 const App = () => {
@@ -7,7 +6,7 @@ const App = () => {
     "https://jsonplaceholder.typicode.com/posts"
   );
   return (
-    <div className="container py-4">
+    <div>
       <h1>Fetch Data on Button Click</h1>
       <button onClick={fetchData}>Fetch Data</button>
       {loading && <p>Loading...</p>}
