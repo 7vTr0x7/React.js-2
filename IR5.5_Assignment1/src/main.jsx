@@ -6,6 +6,7 @@ import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Players from "./pages/Players";
 import Report from "./pages/Report";
+import PlayerDetails from "./pages/PlayerDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/report",
     element: <Report />,
+  },
+  {
+    path: "/players/:playerId",
+    element: <PlayerDetails />,
   },
 ]);
 

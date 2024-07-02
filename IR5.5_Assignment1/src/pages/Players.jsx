@@ -36,7 +36,7 @@ const Players = () => {
                 <h4>{player.name}</h4>
                 <p>Position: {player.position}</p>
                 <p>Team: {player.team}</p>
-                <Link to={`/`} className="btn btn-primary">
+                <Link to={`/players/${player.id}`} className="btn btn-primary">
                   View Details
                 </Link>
               </li>
