@@ -4,9 +4,9 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
+        <div className="container">
           <a className="navbar-brand" href="#">
-            Navbar
+            Company Logo
           </a>
           <button
             className="navbar-toggler"
@@ -21,18 +21,18 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link " href="#">
                   Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Features
+                  Players
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Pricing
+                  Report
                 </a>
               </li>
             </ul>
